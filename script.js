@@ -10,7 +10,7 @@ if (nom.trim().toLowerCase() === "romain barras") {
 // Mettre à jour le nom dans la page
 document.getElementById("nom").textContent = nom;
 
-// Compte à rebours
+// Compte à rebours (48 heures)
 let seconds = 48 * 60 * 60;
 
 function updateCountdown() {
