@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Official Notice</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="overlay"></div>
+
+<div class="card">
+  <div class="seal">⚖️</div>
+
+  <h1>F.B.I.</h1>
+  <h2>Federal Bureau of Inquiries</h2>
+
+  <p class="classified">DOCUMENT CONFIDENTIEL — NIVEAU 4</p>
+
+  <p>
+    À l’attention de :
+    <strong><span id="nom">Citoyen</span></strong>
+  </p>
+
+  <p>
+    Votre identité a été détectée dans le cadre de
+    <strong>l’Affaire Silver Falcon</strong>.
+  </p>
+
+  <p>
+    Convocation au siège central —
+    <strong>New York</strong>
+  </p>
+
+  <p class="warning">Délai avant comparution :</p>
+  <div id="countdown">48:00:00</div>
+
+  <button onclick="startSequence()">Accéder au dossier</button>
+
+  <p class="tiny">
+    Toute diffusion non autorisée est interdite.
+  </p>
+</div>
+
+<audio id="alarm" src="alarm.mp3"></audio>
+
+<script src="script.js"></script>
+</body>
+</html>
