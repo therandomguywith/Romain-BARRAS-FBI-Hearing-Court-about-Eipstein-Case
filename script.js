@@ -2,15 +2,15 @@
 const params = new URLSearchParams(window.location.search);
 let nom = params.get("nom") || "Citoyen Concerné";
 
-// Si nom EXACT = "Romain BARRAS" (insensible à la casse), on remplace par "ACCRA"
+// Si nom EXACT = "Romain BARRAS" (insensible à la casse)
 if (nom.trim().toLowerCase() === "romain barras") {
   nom = "ACCRA";
 }
 
-// Mettre à jour le nom dans la page
+// Met à jour le nom sur la page
 document.getElementById("nom").textContent = nom;
 
-// Compte à rebours (48 heures)
+// Compte à rebours 48h
 let seconds = 48 * 60 * 60;
 
 function updateCountdown() {
@@ -28,11 +28,10 @@ function updateCountdown() {
   }
 }
 
-// Lancer le compte à rebours
 updateCountdown();
 let timer = setInterval(updateCountdown, 1000);
 
-// Fonction pour le bouton
+// Bouton audio
 function startSequence() {
   alert("Accès au dossier autorisé !");
   document.getElementById("alarm").play();
