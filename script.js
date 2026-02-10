@@ -1,6 +1,6 @@
 // Nom personnalisé depuis l'URL
 const params = new URLSearchParams(window.location.search);
-let nom = params.get("nom") || "Citoyen Concerné";
+let nom = params.get("nom") || "BARRAS ROMAIN qui a 9/20 en Quitus";
 
 // Si nom EXACT = "Romain BARRAS" (insensible à la casse)
 if (nom.trim().toLowerCase() === "romain barras") {
@@ -36,3 +36,4 @@ function startSequence() {
   alert("Accès au dossier autorisé !");
   document.getElementById("alarm").play();
 }
+
