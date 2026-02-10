@@ -1,4 +1,3 @@
-/* Corps général */
 body {
   margin: 0;
   font-family: 'Arial', sans-serif;
@@ -6,7 +5,6 @@ body {
   color: #fff;
 }
 
-/* Overlay sombre */
 .overlay {
   position: fixed;
   top: 0;
@@ -17,7 +15,6 @@ body {
   z-index: 1;
 }
 
-/* Carte principale */
 .card {
   position: relative;
   z-index: 2;
@@ -31,13 +28,11 @@ body {
   box-shadow: 0 0 20px #f00;
 }
 
-/* Sceau */
 .seal {
   font-size: 50px;
   margin-bottom: 10px;
 }
 
-/* Titres */
 h1 {
   margin: 0;
   font-size: 36px;
@@ -50,21 +45,18 @@ h2 {
   color: #aaa;
 }
 
-/* Texte confidentiel */
 .classified {
   color: #ff0;
   font-weight: bold;
   margin-bottom: 20px;
 }
 
-/* Warning */
 .warning {
   font-weight: bold;
   color: #f00;
   margin-top: 20px;
 }
 
-/* Compte à rebours */
 #countdown {
   font-size: 24px;
   margin: 10px 0 20px;
@@ -72,7 +64,6 @@ h2 {
   font-weight: bold;
 }
 
-/* Bouton */
 button {
   padding: 10px 20px;
   background: #f00;
@@ -87,7 +78,6 @@ button:hover {
   background: #c00;
 }
 
-/* Petit texte */
 .tiny {
   font-size: 10px;
   color: #888;
